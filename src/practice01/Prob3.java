@@ -7,10 +7,9 @@ public class Prob3 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		
-		
+			
 		while(true){
-			System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
+			System.out.print("¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
 			int value = scan.nextInt();
 			int sum=0;
 			
@@ -18,14 +17,14 @@ public class Prob3 {
 				for(int i=2; i<value+1; i+=2){
 					sum=sum+i;
 				}
-				System.out.println("ê²°ê³¼ê°’ : "+sum);
+				System.out.println("Â¦¼ö ÃÑÇÕÀº : "+sum);
 				continue;
 			}
 			else{
 				for(int i=1; i<value+1; i+=2){
 					sum=sum+i;
 				}
-				System.out.println("ê²°ê³¼ê°’ : "+sum);
+				System.out.println("È¦¼ö ÃÑÇÕÀº : "+sum);
 				continue;
 			}
 		}
