@@ -16,6 +16,7 @@ public class Prob5 {
 							System.out.print("짝");
 						}
 						System.out.println("");
+						
 					}
 				}
 			}
